@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Todos App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>-- Todos 管理アプリ --</h1>
+    <p>あなたが今日すべきことは何ですか？</p>
+  </header>
+
+  <div class="container">
+    <h2>
+      Todos
+      <button id="purge">まとめて削除</button>
+    </h2>
+    <ul id="todos">
+      <!-- <li>
+        <label for="">
+          <input type="checkbox">
+          <span>
+            aaa
+          </span>
+        </label>
+        <button>x</button>
+      </li>
+      <li>
+        <label for="">
+          <input type="checkbox">
+          <span>
+            bbb
+          </span>
+        </label>
+        <button>x</button>
+      </li> -->
+    </ul>
+    <form id="add-form">
+      <input type="text">
+      <button>追加</button>
+    </form>
+
+    <p id="result">今日のタスク完了数: <input type="text">個</p>
+    <p id="comment"></p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
